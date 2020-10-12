@@ -3,6 +3,9 @@
 hidl_interface {
     name: "vendor.lge.hardware.audio.dac.control@1.0",
     root: "vendor.lge",
+    vndk: {
+        enabled: true,
+    },
     srcs: [
         "types.hal",
         "IDacAdvancedControl.hal",
